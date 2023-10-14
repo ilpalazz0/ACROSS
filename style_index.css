@@ -68,3 +68,8 @@ a {
 a:hover {
     color: white;
 }
+
+a:visited {
+    color: rgb(5, 249, 249);
+   
+}
