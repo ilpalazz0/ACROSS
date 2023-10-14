@@ -27,49 +27,53 @@ body {
 
 }
 
+.name {
+
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding-top: 10px;
+
+}
+
+.info {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 95px;
+    width: 30%;
+
+}
+
 .contact {
 
     display: inline-block;
-    width: 33%;
+   
     padding-top: 95px;
 
-}
-.info {
-
-    display: inline-block;
-    width: 33%;
-    padding-top: 95px;
+    width: 30%;
 
 }
+
 #background{
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
-    height: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
     background-image: url(https://i.redd.it/leyzxn31efj21.jpg);
     border-radius: 9%;
 }
-.name {
-    display: inline-block;
-
-    width: 45%;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 20px;
-}
 
 #round {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
     border-radius: 50%;
-
     height: 300px;
-
     width: 300px;
-
     box-shadow: 1px 10px 10px rgb(0, 21, 67);
 
   }
@@ -77,27 +81,17 @@ body {
 .main { 
 
     display: flex;
-    width: 700px;
-    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
     
-}
-
-.name {
-
-
-    font-size: 20px;
-
 }
 
 .about {
 
-        text-align: center;
-}
-
-.why {
-
-    padding: 10px;
-
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
 }
 
 ul {
@@ -108,9 +102,19 @@ ul {
 
 a:link {
     color: white;
+  
 
 }
 
 a:visited {
     color: rgb(5, 249, 249);
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
 }
