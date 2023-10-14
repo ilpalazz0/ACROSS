@@ -65,6 +65,11 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+
+    color:#067293;
+}
+
 a:hover {
 
     color: black;
