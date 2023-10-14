@@ -66,10 +66,11 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 a:visited {
-    color: rgb(5, 249, 249);
+    
+    color: rgb(2, 154, 154);
    
 }
