@@ -68,7 +68,7 @@ body {
 }
 
 #round {
-    position: fixed;
+
     display: flex;
     flex-direction: column;
     border-radius: 50%;
@@ -83,6 +83,8 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    block-size: 350px;
+
     
 }
 
@@ -91,7 +93,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 10px;
+    block-size: 180px;
 }
 
 ul {
@@ -102,13 +104,10 @@ ul {
 
 a:link {
     color: white;
-  
-
 }
 
 a:visited {
     color: rgb(5, 249, 249);
-   
 }
 
 a {
@@ -118,3 +117,27 @@ a {
 a:hover {
     color: white;
 }
+
+.hr2 {
+    width: 35%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    height: 1px;
+    border: none;
+    
+ }
+
+ .hr3 {
+    width: 35%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    height: 1px;
+    border: none;
+    
+ }
+
+ hr {
+    opacity: 50%;
+ }
