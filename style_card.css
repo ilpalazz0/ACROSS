@@ -1,0 +1,116 @@
+h1 {
+
+ color: gainsboro;
+ text-align: center;
+ font-size: 40px;
+
+}
+
+body {
+
+        
+    background: linear-gradient(
+        to bottom,
+        rgb(27, 27, 27) 2%,
+        #067293 10%,
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        #067293 90%,
+        rgb(27, 27, 27) 98%
+
+    );
+ 
+    height: 100vh; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gainsboro;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.contact {
+
+    display: inline-block;
+    width: 33%;
+    padding-top: 95px;
+
+}
+.info {
+
+    display: inline-block;
+    width: 33%;
+    padding-top: 95px;
+
+}
+#background{
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 72%;
+    background-image: url(https://i.redd.it/leyzxn31efj21.jpg);
+    border-radius: 9%;
+}
+.name {
+    display: inline-block;
+
+    width: 45%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+#round {
+    border-radius: 50%;
+
+    height: 300px;
+
+    width: 300px;
+
+    box-shadow: 1px 10px 10px rgb(0, 21, 67);
+
+  }
+
+.main { 
+
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    
+}
+
+.name {
+
+
+    font-size: 20px;
+
+}
+
+.about {
+
+        text-align: center;
+}
+
+.why {
+
+    padding: 10px;
+
+}
+
+ul {
+
+    list-style-type: none;
+
+}
+
+a:link {
+    color: white;
+
+}
+
+a:visited {
+    color: rgb(5, 249, 249);
+}
