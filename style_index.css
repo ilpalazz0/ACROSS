@@ -65,12 +65,6 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    
-    color: rgb(2, 154, 154);
-   
-}
-
 a:hover {
 
     color: black;
