@@ -61,28 +61,6 @@ ul {
     text-shadow: 2px 1px 1px black;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:visited {
-
-    color:#067293;
-
-}
-
-a:hover {
-
-    color: black;
-
-}
-
-a:visited {
-
-    color: #067293;
-}
-
-
 .hr2 {
 
    margin-top: 160px;
@@ -100,4 +78,21 @@ a:visited {
     margin-left: auto; 
     background-color: black;
     height: 1px;
+
  }
+
+ hr {
+    border: none;
+ }
+
+a:visited {
+
+    color: #067293;
+}
+
+a:hover {
+
+    color: black;
+
+}
+
