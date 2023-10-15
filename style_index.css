@@ -38,6 +38,7 @@ img {
     display: flex;
     flex-direction: column;
     text-align: right;
+    padding-top: 15px;
 }
 
 ul {
@@ -49,7 +50,7 @@ ul {
 .bg {
     display: flex;
     justify-content: center;
-    block-size: 220px;
+    block-size: 240px;
 }
 .banner {
     position: flex;
