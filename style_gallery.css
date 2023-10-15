@@ -34,6 +34,16 @@ img:hover {
     height: 300px;
 }
 
+.banner {
+    position: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: gainsboro;
+    padding-top: 15px;
+    text-shadow: 2px 1px 1px black;
+}
+
 .images {
  
     display: inline-block;
@@ -79,12 +89,3 @@ a:visited {
     color: rgb(5, 249, 249);
 }
 
-.banner {
-    position: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 40px;
-    color: gainsboro;
-    padding-top: 15px;
-    text-shadow: 2px 1px 1px black;
-}
