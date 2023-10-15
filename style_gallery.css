@@ -1,0 +1,80 @@
+body {
+
+        
+    background: linear-gradient(
+        to bottom,
+        rgb(27, 27, 27) 2%,
+        #067293 10%,
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        #067293 90%,
+        rgb(27, 27, 27) 98%
+
+    );
+ 
+    height: 100vh; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gainsboro;
+    text-shadow: 1px 1px 1px black;
+    
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: rgb(0, 116, 155);
+}
+
+img:hover {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+
+.images {
+ 
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%;
+    width: 50%;
+    block-size: 100px;
+
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+   
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+    border-radius: 7%;
+    border-style:double;
+    border-color: rgb(0, 137, 137);
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+  }
+
+a:visited {
+    color: rgb(5, 249, 249);
+}

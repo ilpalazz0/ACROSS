@@ -16,16 +16,16 @@ body {
 }
 
 .navigation {
+    
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding-top: 35px;
     font-size: 25px;
-    min-height: 70%;
     text-align: left;
+
 }
 
-#ilpalazzo {
+img {
 
     width: 210px;
     height: 200px;
@@ -49,7 +49,7 @@ ul {
 .bg {
     display: flex;
     justify-content: center;
-    block-size: 210px;
+    block-size: 220px;
 }
 .banner {
     position: flex;
@@ -63,12 +63,13 @@ ul {
 
 .hr2 {
 
-   margin-top: 160px;
+   margin-top: 190px;
    width: 35%;
    margin-right: auto;
    margin-left: auto;
    background-color: black;
    height: 1px;
+   opacity: 50%;
    
 }
 
@@ -77,9 +78,10 @@ ul {
     margin-right: auto;
     margin-left: auto; 
     background-color: black;
-    height: 1px;
+    height: 2px;
+    opacity: 50%;
 
- }
+}
 
 hr {
     border: none;
@@ -87,7 +89,7 @@ hr {
 
 a:visited {
 
-    color: #067293;
+    color: rgb(5, 249, 249);
 }
 
 a:hover {
@@ -96,3 +98,26 @@ a:hover {
 
 }
 
+a {
+
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #5d5d5d;
+    border-radius: 7%;
+    border-style:double;
+    border-color: rgb(0, 137, 137);
+}
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+img:hover {
+
+    background-color: white;
+    width: 240px;
+    height: 230px;
+
+}
